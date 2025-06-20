@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Aubrey&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fframe {
+  width: 1355px;
+  height: 921px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.toppage {
+  width: 1355px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  font-family: "Aubrey", system-ui;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.home {
+  width: 369px;
+  height: 28px;
+  margin-top: 14px;
+  margin-left: 120px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.search {
+  width: 243px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: rgba(48, 45, 45, 1);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+.vector {
+  width: 19px;
+  height: 19px;
+  margin: 5px 5px;
+}
+.signup {
+  font-weight: 300;
+  width: 123px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: rgba(189, 0, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+}
+.signin {
+  font-weight: 300;
+  width: 123px;
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid rgba(189, 0, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+}
+.Highlight {
+  width: 1240px;
+  height: 774px;
+  position: absolute;
+  margin-top: 147px;
+  gap: 10px;
+}
+.topt {
+  font-size: 38px;
+}
+.high {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+.text {
+  width: 100%;
+  height: 200px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  box-shadow: inset 0px -80px 40px #000;
+}
+.hlcontainer {
+  width: 1240px;
+  height: 717px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.titan {
+  width: 608px;
+  height: 717px;
+  background-image: url(./titan.jpg);
+}
+.bd {
+  width: 360px;
+  height: 717px;
+}
+.demon {
+  width: 360px;
+  height: 368px;
+  background-image: url(./demon.jpg);
+}
+.black {
+  width: 360px;
+  height: 332px;
+  background-image: url(./Black_Clover.webp);
+  margin-top: 20px;
+}
+.ho {
+  width: 237px;
+  height: 717px;
+  border-radius: 20px;
+}
+.punch {
+  width: 238px;
+  height: 243px;
+  background-image: url(./onepunch.jpg);
+}
+.hunter {
+  width: 238px;
+  height: 457px;
+  margin-top: 20px;
+  background-image: url(./hunter.jpg);
+}
+
+/* episodes */
+
+h1,
+h2 {
+  font-weight: 400;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+}
+
+.episode {
+  width: 1260px;
+  height: 1942px;
+  top: 987px;
+}
+.anime {
+  width: 605px;
+  height: 419px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+.bagans {
+  width: 1260px;
+  height: 1706px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+.kabaddi {
+  background-color: #c444c4;
+  background-image: url(./kab.png);
+}
+.kumo {
+  background-color: #c444;
+  background-image: url(./dre.png);
+}
+.oto {
+  background-color: bisque;
+  background-image: url(./kum.png);
+}
+.sekai {
+  background-color: wheat;
+  background-image: url(./sek.png);
+}
+.dress {
+  background-color: #fff;
+  background-image: url(./oto.png);
+}
+.kono {
+  background-color: aqua;
+  background-image: url(./ray.png);
+}
+.ray {
+  background-color: slateblue;
+  background-image: url(./kon.png);
+}
+.pokemon {
+  background-color: tomato;
+  background-image: url(./poke.png);
+}
+.aname {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: inset 0px -100px 50px black;
+}
+.legen {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.held {
+  width: 94%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hd {
+  height: 45px;
+  width: 88px;
+  background-color: rgba(189, 0, 255, 1);
+  font-size: 24px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leg {
+  height: 45px;
+  width: 193px;
+  background-color: rgba(189, 0, 255, 1);
+  font-size: 24px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.viebox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.view {
+  width: 264px;
+  height: 72px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(189, 0, 255, 1);
+  border-radius: 5px;
+}
+
+.dood {
+  width: 100%;
+  height: 264px;
+  background-color: rgba(48, 45, 45, 0.17);
+}
+.bem{
+  font-family: "aubrey" sans-serif;
+  font-size: 12px;
+}
